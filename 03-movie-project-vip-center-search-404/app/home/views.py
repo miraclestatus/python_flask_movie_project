@@ -21,3 +21,6 @@ def logout():
 @home.route("/regist/")
 def regist():
     return render_template('home/register.html')
+@home.route("/user/")
+def user():
+    return render_template("home/user.html")
