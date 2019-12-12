@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+
+<style type="text/css">
+.intro
+{
+font-size:120%;
+color:red;
+}
+</style>
+</head>
+<body>
+<h1>This is a heading</h1>
+<p>This is a paragraph.</p>
+<p>This is another paragraph.</p>
+<button>向第一个 p 元素添加一个类</button>
+
+<script type="text/javascript" src="../static/base/js/jquery.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+  $("button").click(function(){
+    $("p:first").addClass("intro");
+  });
+});
+</script>
+</body>
+
+</html>
+

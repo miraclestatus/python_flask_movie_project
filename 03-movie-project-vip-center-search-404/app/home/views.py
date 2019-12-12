@@ -24,3 +24,15 @@ def regist():
 @home.route("/user/")
 def user():
     return render_template("home/user.html")
+@home.route("/pwd/")
+def pwd():
+    return render_template("home/pwd.html")
+@home.route("/comments/")
+def comments():
+    return render_template("home/comments.html")
+@home.route("/loginlog/")
+def loginlog():
+    return render_template("home/loginlog.html")
+@home.route("/moviecol/")
+def moviecol():
+    return render_template("home/moviecol.html")
